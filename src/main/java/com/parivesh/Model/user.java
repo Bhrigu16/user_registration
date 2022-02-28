@@ -45,5 +45,19 @@ public class user {
 	@Column(name="pincode")
 	private String pincode;
 	
+	@Column(name="password")
+	private String password;
+	
+	@Column(name="is_active")
+	private String is_active;
+	
+	@Column(name="is_delete")
+	private String is_delete;
+	
+	@Column(name="security_question")
+	private String security_question;
+	
+	@Column(name="security_answer")
+	private String security_answer;
 
 }
